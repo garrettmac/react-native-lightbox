@@ -1,4 +1,9 @@
-import { AppRegistry } from 'react-native';
-import App from './app';
+/**
+ * Sample React Native App
+ * https://github.com/facebook/react-native
+ */
+'use strict';
 
-AppRegistry.registerComponent('Example', () => App);
+var React = require('react-native');
+
+React.AppRegistry.registerComponent('Example', () => require('./app'));
